@@ -1,0 +1,184 @@
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee; }
+  header a {
+    flex: 1 10%;
+    min-width: 140px; }
+    header a:first-child {
+      margin-left: 50px; }
+    header a .company-logo {
+      width: 140px; }
+  header .nav-mid-section {
+    display: flex;
+    flex: 1 90%;
+    justify-content: space-around;
+    color: #505050;
+    font-size: 0.9em; }
+    header .nav-mid-section .menu {
+      display: flex;
+      justify-content: space-between;
+      flex: 1 60%;
+      list-style-type: none; }
+      header .nav-mid-section .menu li {
+        font-family: helvetica;
+        font-weight: 300; }
+  header .nav-right-section {
+    display: flex;
+    align-items: center; }
+    header .nav-right-section > * {
+      font-family: helvetica;
+      font-weight: 300; }
+
+.jetzt-button {
+  background: #fcb82c;
+  color: white;
+  width: 250px;
+  height: 40px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.phone-image {
+  width: 20px; }
+
+.phone-link {
+  min-width: 20px;
+  flex: none; }
+
+.listing-container {
+  min-width: 300px; }
+
+.listing-results {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-left: 2.8%;
+  margin-right: 2.8%;
+  padding-left: 0; }
+
+#viewAds {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto 0;
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  border-style: none;
+  border-radius: 2px;
+  color: white;
+  background: #fcb82c;
+  outline: none;
+  transition: all 0.1s ease;
+  -webkit-box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75); }
+  #viewAds:hover {
+    color: grey;
+    cursor: pointer;
+    transition: all 0.1s ease; }
+  #viewAds:active {
+    transition: all 0.1s ease;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+
+.listing-individual {
+  flex: 1 30%;
+  height: 360px;
+  max-width: 300px;
+  margin: 0 16px 40px; }
+  .listing-individual button {
+    position: relative;
+    left: 20px;
+    top: 48px;
+    height: 28px;
+    border-style: none;
+    border-radius: 2px;
+    color: grey;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.1s ease;
+    -webkit-box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 11px -3px rgba(0, 0, 0, 0.75); }
+    .listing-individual button:hover {
+      color: black;
+      cursor: pointer;
+      transition: all 0.1s ease; }
+    .listing-individual button:active {
+      color: #fcb82c;
+      transition: all 0.1s ease;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none; }
+  .listing-individual .listing-upper-section {
+    width: 100%;
+    height: 100%; }
+    .listing-individual .listing-upper-section .listing-image {
+      max-width: 100%;
+      height: 180px;
+      background-position: center 0;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+  .listing-individual .listing-lower-section {
+    padding: 15px 30px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 140px;
+    border: 1px #eee solid; }
+    .listing-individual .listing-lower-section .listing-last-row {
+      display: flex;
+      justify-content: space-between; }
+
+.property-title {
+  color: #3a3a3a;
+  font-size: 0.8em;
+  letter-spacing: 0.5px;
+  hyphens: auto; }
+
+.property-location {
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #c2c2c2; }
+
+.property-price {
+  color: #3a3a3a;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 1px; }
+
+span {
+  border-left: 1px solid #d4d4d4;
+  padding-left: 10px;
+  margin-left: 10px; }
+
+.property-room-space {
+  font-size: 0.8em;
+  font-weight: 300;
+  color: #858585; }
+
+.filling-empty-space-childs {
+  width: 330px;
+  height: 0; }
+
+@media all and (max-width: 734px) {
+  .listing-individual {
+    max-width: 85%; } }
+
+/*# sourceMappingURL=style.css.map */
